@@ -1,0 +1,115 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f4f6f9;
+}
+
+/* container */
+.signup-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+/* card */
+.signup-card{
+  width:360px;
+  background:white;
+  padding:35px;
+  border-radius:10px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* title */
+.title{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+/* form */
+.signup-form{
+  display:flex;
+  flex-direction:column;
+}
+
+/* labels */
+.signup-form label{
+  margin-top:10px;
+  font-weight:600;
+}
+
+/* inputs */
+.signup-form input{
+  padding:10px;
+  margin-top:5px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  outline:none;
+  font-size:14px;
+}
+
+.signup-form input:focus{
+  border-color:#4a90e2;
+}
+
+/* primary button */
+.btn-primary{
+  margin-top:20px;
+  padding:10px;
+  border:none;
+  border-radius:6px;
+  background:#4a90e2;
+  color:white;
+  cursor:pointer;
+  font-size:14px;
+  transition:0.3s;
+}
+
+.btn-primary:hover{
+  background:#357abd;
+}
+
+/* otp section */
+.otp-box{
+  margin-top:20px;
+  display:flex;
+  flex-direction:column;
+}
+
+.otp-box input{
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  margin-top:5px;
+}
+
+/* verify button */
+.btn-secondary{
+  margin-top:10px;
+  padding:10px;
+  border:none;
+  border-radius:6px;
+  background:#28a745;
+  color:white;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.btn-secondary:hover{
+  background:#1e7e34;
+}
+
+/* message box */
+.message-box{
+  margin-bottom:15px;
+  padding:12px;
+  background:#e8f5e9;
+  border:1px solid #4caf50;
+  color:#2e7d32;
+  border-radius:6px;
+  text-align:center;
+  font-weight:500;
+  font-size:14px;
+}
