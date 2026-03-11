@@ -141,7 +141,7 @@ Possible improvements for this project:
 
 ## Note
 
-This project is built by a **student for learning purposes** while practicing the MERN stack and authentication concepts.
+This project is built by a **me for learning purposes** while practicing the MERN stack and authentication concepts.
 
 It focuses on understanding the **basic OTP verification flow** rather than production-level security.
 
